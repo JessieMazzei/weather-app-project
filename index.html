@@ -13,8 +13,112 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
-      <a href="" class="btn btn-primary">Click </a>
+      <div class="weather-app">
+        <div class="row header">
+          <div class="col-6">
+            <img
+              src="images/partly_cloudy.png"
+              alt="partly cloudy weather
+              illustration"
+              class="weather-icon"
+            />
+            <h3>
+              <span id="temp-change">-6</span><span>°C|</span><a href="#">°F</a>
+            </h3>
+            <ul class="weather-info">
+              <li>Precipitation: 2%</li>
+              <li>Humidity: 53%</li>
+              <li>Wind: 8km/h</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h1 id="city-name">Calgary, AB</h1>
+            <ul class="weather-info">
+              <li id="current-day-time">Friday 4:00 p.m.</li>
+              <li>Mostly Cloudy</li>
+            </ul>
+            <form action="" id="search-form">
+              <input
+                type="text"
+                placeholder="Search for a City"
+                autocomplete="off"
+                autofocus="on"
+                id="city-search"
+              />
+              <input type="submit" value="Search" />
+            </form>
+          </div>
+        </div>
+        <div class="week">
+          <div class="row">
+            <div class="col">
+              <h2>Fri</h2>
+              <div class="row">
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <h2>1° -6°</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h2>Sat</h2>
+              <div class="row">
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <h2>1° -6°</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h2>Sun</h2>
+              <div class="row">
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <h2>1° -6°</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h2>Mon</h2>
+              <div class="row">
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <h2>1° -6°</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h2>Tue</h2>
+              <div class="row">
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <h2>1° -6°</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
