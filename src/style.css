@@ -1,10 +1,17 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+}
 h1 {
   color: #202124;
   display: block;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 26px;
   margin: 0 auto;
@@ -45,13 +52,7 @@ ul {
   margin: 10px 0 10px;
   padding: 0;
 }
-.weather-app {
-  border: 1px solid #dadde1;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 20px auto;
-  max-width: 600px;
-}
+
 .week-weather-icon {
   width: 80px;
 }
