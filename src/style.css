@@ -1,13 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-.weather-app {
-  border: 1px solid #dadde1;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 600px;
-}
+
 h1 {
   color: #202124;
   display: block;
@@ -27,7 +21,6 @@ h2 {
   padding: 0;
 }
 h3 {
-  display: inline-blo;
 }
 img {
   display: inline-block;
@@ -35,17 +28,32 @@ img {
 li {
   list-style: none;
   color: #9aa0a6;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 20px;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 ul {
   margin: 0;
   padding: 0;
 }
+.now-temperature {
+  font-size: 64px;
+  line-height: 1;
+}
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 20px;
+}
 .weather-icon {
+  margin-right: 10px;
   width: 80px;
 }
 .weather-info {
@@ -62,4 +70,8 @@ ul {
 .week {
   align-items: center;
   justify-items: center;
+}
+.units {
+  font-size: 20px;
+  position: relative;
 }
