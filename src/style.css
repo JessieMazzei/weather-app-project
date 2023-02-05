@@ -39,13 +39,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+.city-input {
+  margin: 0 auto;
+  padding: 8px;
+}
 .now-temperature {
   font-size: 64px;
   line-height: 1;
 }
+.submit {
+  margin: 0 auto;
+  padding: 8px;
+}
 .weather-app-wrapper {
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 650px;
 }
 .weather-app {
   border: 1px solid #dadde1;

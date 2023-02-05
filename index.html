@@ -18,7 +18,7 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="row header">
-            <div class="col-6">
+            <div class="col-5">
               <div class="d-flex">
                 <img
                   src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
@@ -36,7 +36,7 @@
                 <li>Wind: <span id="wind">8</span>km/h</li>
               </ul>
             </div>
-            <div class="col-6">
+            <div class="col-7">
               <h1 id="city-name">Calgary, AB</h1>
               <ul class="weather-info">
                 <li>
@@ -46,14 +46,25 @@
                 <li id="description">Mostly Cloudy</li>
               </ul>
               <form action="" id="search-form" class="">
-                <input
-                  type="text"
-                  placeholder="Enter a City"
-                  autocomplete="off"
-                  autofocus="on"
-                  id="city-search"
-                />
-                <input type="submit" value="Search" />
+                <div class="row">
+                  <div class="col-9">
+                    <input
+                      type="search"
+                      placeholder="Enter a City"
+                      autocomplete="off"
+                      autofocus="on"
+                      id="city-input"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <input
+                      type="submit"
+                      value="Search"
+                      class="btn btn-primary submit"
+                    />
+                  </div>
+                </div>
               </form>
             </div>
           </div>
