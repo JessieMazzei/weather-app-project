@@ -71,13 +71,24 @@ ul {
   margin: 10px 0 10px;
   padding: 0;
 }
-
+.week-date {
+  font-size: 16px;
+  color: #202124;
+  opacity: 0.6;
+}
+.week-temp {
+  font-size: 16px;
+  color: #202124;
+}
+.week-temp-min {
+  opacity: 0.6;
+}
 .week-weather-icon {
   width: 80px;
 }
-.week {
-  align-items: center;
-  justify-items: center;
+.week-weather {
+  margin-top: 10px;
+  text-align: center;
 }
 .units {
   font-size: 20px;

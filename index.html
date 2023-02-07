@@ -18,7 +18,7 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="row header">
-            <div class="col-5">
+            <div class="col-5 main-weather">
               <div class="d-flex">
                 <img
                   src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
@@ -37,7 +37,6 @@
                   >
                 </span>
               </div>
-
               <ul class="weather-info">
                 <li>Feels Like: <span id="feels-like">2</span>°C</li>
                 <li>Humidity: <span id="humidity">53</span>%</li>
@@ -76,71 +75,18 @@
               </form>
             </div>
           </div>
-          <div class="week">
+          <div class="week-weather">
             <div class="row">
-              <div class="col">
-                <h2>Fri</h2>
-                <div class="row">
-                  <img
-                    class="week-weather-icon"
-                    src="images/partly_cloudy.png"
-                    alt="weather illustration"
-                  />
-                  <div class="week-temp">
-                    <h2>1° -6°</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <h2>Sat</h2>
-                <div class="row">
-                  <img
-                    class="week-weather-icon"
-                    src="images/partly_cloudy.png"
-                    alt="weather illustration"
-                  />
-                  <div class="week-temp">
-                    <h2>1° -6°</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <h2>Sun</h2>
-                <div class="row">
-                  <img
-                    class="week-weather-icon"
-                    src="images/partly_cloudy.png"
-                    alt="weather illustration"
-                  />
-                  <div class="week-temp">
-                    <h2>1° -6°</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <h2>Mon</h2>
-                <div class="row">
-                  <img
-                    class="week-weather-icon"
-                    src="images/partly_cloudy.png"
-                    alt="weather illustration"
-                  />
-                  <div class="week-temp">
-                    <h2>1° -6°</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <h2>Tue</h2>
-                <div class="row">
-                  <img
-                    class="week-weather-icon"
-                    src="images/partly_cloudy.png"
-                    alt="weather illustration"
-                  />
-                  <div class="week-temp">
-                    <h2>1° -6°</h2>
-                  </div>
+              <div class="col-2">
+                <div class="week-date">Fri</div>
+                <img
+                  class="week-weather-icon"
+                  src="images/partly_cloudy.png"
+                  alt="weather illustration"
+                />
+                <div class="week-temp">
+                  <span class="week-temp-max">1° </span
+                  ><span class="week-temp-min"> -6°</span>
                 </div>
               </div>
             </div>
