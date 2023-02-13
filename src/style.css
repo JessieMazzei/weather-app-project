@@ -50,6 +50,8 @@ ul {
 .submit {
   margin: 0 auto;
   padding: 8px;
+  background: #4f6372;
+  border-color: #657886;
 }
 .weather-app-wrapper {
   margin: 30px auto;
